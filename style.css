@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(161, 100, 223);
+    text-align: center;
+    position: relative;
+}
+h1{
+    font-size: 3vw;
+    padding-top: 100px;
+    color: #fff;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    margin: 10px;
+    font-size: 1.6vw;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:hover{
+    opacity: .8;
+}
+.btn:active{
+    scale: .96;
+}
